@@ -58,7 +58,7 @@ def polyline(img, points, color):
 
 
 def setup_logging( \
-    default_path='../log_config.json', \
+    default_path='../config/log_config.json', \
     default_level=logging.INFO, \
     env_key='LOG_CFG' \
 ):
