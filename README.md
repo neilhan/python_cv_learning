@@ -11,9 +11,8 @@ To run each example:
 Change current directory to each sub directories, type:
 > python run_me.py
 
+How to setup openCV on Fedora 19
 ----------------------------------------------------------------
-How to setup openCV on Fedora 19:
-
 following steps are copied from http://aspratyush.wordpress.com/tag/opencv-fedora/
 
 sudo yum groupinstall "Development Tools" "Development Libraries"
@@ -28,8 +27,7 @@ sudo yum install ipython ipdb python-opencv python-opengl python-setuptools pyth
 
 ipdb install::: easy_install ipdb
 
-Python openCV
-----------------------------------------------------------------
-How to setup openCV on Ubuntu:
 
+How to setup openCV on Ubuntu:
+----------------------------------------------------------------
 sudo apt-get install python-opencv python-opengl python-setuptools python-numpy python-scipy python-matplotlib
