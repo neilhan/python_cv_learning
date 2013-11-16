@@ -1,4 +1,3 @@
-*.py[cod]
 
 # C extensions
 *.so
@@ -37,3 +36,6 @@ nosetests.xml
 
 # log files
 *.log
+*.py[cod~]
+*.swp
+.ropeproject
