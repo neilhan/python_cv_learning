@@ -1,22 +1,31 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+Finding similar area on an image.
 
+Using back project.
 
-from __future__ import absolute_import, division, print_function, unicode_literals
+"""
+
+from __future__ import absolute_import, division, \
+    print_function, unicode_literals
+
+import logging
+import sys
+
+import cv2
+import numpy as np
+
+import ava.cv.utl
+import ava.utl
+
 
 # import ipdb; ipdb.set_trace() ; # debugging--------------------------------------
-import sys
-import logging
-
-import numpy as np
-import scipy.sparse as sp
-import cv2
+# this is to get pass a bug in Fedora openCV. cv2.namedWindow has to be
+# opened at python root level first.
 cv2.namedWindow('GetArroundASegmentationFailure', 0)
 cv2.destroyWindow('GetArroundASegmentationFailure')
-import matplotlib.pyplot as plt
 
-import ava.utl
-import ava.cv.utl
 
 
 class Histogram1D:

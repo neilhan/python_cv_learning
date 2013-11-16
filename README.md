@@ -3,6 +3,14 @@ python_cv_learning
 
 The exercises and learning experience with opencv, and python.
 
+The code that you find here are the practice I did while following 
+"OpenCV 2 Computer Vision Application Programming Cookbook" by Robert Laganiere.
+
+Many of them were borrowed from Abid Rahman's blog:
+    http://opencvpython.blogspot.in
+He has a github repo: 
+    https://github.com/abidrahmank/OpenCV2-Python.git
+
 Before the examples can be run, PYTHONPATH needs to be set. 
 Excute this command:
 > export PYTHONPATH=$$PYTHONPATH:/path_to_python_cv_learning/mylib
