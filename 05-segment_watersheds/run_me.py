@@ -43,6 +43,7 @@ class WatershedSegmenter(object):
         "img; np.array, -> return markers as np.array"
         # marker needs to be 32s depth
         cv2.watershed(img, self._markers)
+        # after watershed, the boundry is -1
         return self.markers
 
     def get_segmentation(self):
@@ -50,6 +51,7 @@ class WatershedSegmenter(object):
         return result
 
     def get_watersheds(self):
+        # after watershed, the boundry is -1
         result = np.copy(self.markers)
         result[result>=0] = 255
         result[result==-1] = 0
