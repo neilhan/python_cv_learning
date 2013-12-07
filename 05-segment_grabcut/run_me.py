@@ -4,7 +4,7 @@
 This code testing the segmenting images using GrabCut method.
 
 This code testing the segmenting images using GrabCut method.
-Author: Neil.Han@gmail.com
+Author: Neil Han
 
 ! This sample code is a copy from https://github.com/Itseez/opencv/blob/master/samples/python2/grabcut.py
 @ 2013-11-29
